@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Main.css";
 import Navbar from "../Navbar/Navbar";
-import Showcase from "../Showcase/Showcase";
+import Dashboard from '../Dashboard/dashboard'
 import AboutMe from "../AboutMe/AboutMe";
 import MyPortfolio from "../MyPortfolio/MyPortfolio";
 import MyResume from "../Myresume/MyResume";
@@ -71,8 +71,8 @@ class Main extends Component {
       <div className="main" id="home">
         <div className="navbar">{<Navbar propsName={this.state.name} />}</div>
 
-        <div className="image-showcase">
-          <Showcase
+        <div className="image-Dashboard">
+          <Dashboard
             propsName={this.state.name}
             propsDesc={this.state.desc}
             propsTagline={this.state.tagline}

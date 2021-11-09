@@ -44,6 +44,36 @@
   width: 95%;
 }
 
+.flexBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn {
+  width: 150px;
+  height: 50px;
+  color: hsl(0, 11%, 15%);
+  margin-top: 110%;
+  margin-right: 15%;
+}
+#btn1 {
+  border: 2px solid #1dad9b;
+  background-color: #1dad9b;
+  border-radius: 10px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+#btn2 {
+  border: 2px solid orange;
+  background-color: orange;
+  border-radius: 10px;
+}
+.btn11 {
+  color: white;
+  text-align: center;
+  padding-left: 15px;
+}
+
 /* Responsive showcase */
 /* For screen-size 970px-1235px */
 @media screen and (min-width: 970px) and (max-width: 1235px) {
@@ -150,7 +180,7 @@
 }
 
 /* For screen-size 350px-500px */
-@media screen and (min-width: 350px) and (max-width: 500px) {
+@media screen and (min-width: 360px) and (max-width: 640px) {
   .showcase-container {
     height: 470px;
     display: flex;
@@ -191,4 +221,23 @@
     margin: 0px 0px;
     width: 80%;
   }
+  .btn {
+    width: 250px;
+    height: 60px;
+    color: white;
+  }
+  .btn11 {
+    font-size: 30px;
+  }
 }
+/* 
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  .btn {
+    width: 250px;
+    height: 60px;
+    color: white;
+  }
+  .btn11 {
+    font-size: 30px;
+  }
+} */
