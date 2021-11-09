@@ -87,16 +87,6 @@ class MyResume extends Component {
                             </a>
                           </span>
                         </div>
-                        {/* <a
-                          href={projectItem.repoURL}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="repository-link"
-                        >
-                          <p className="repository-link-text">
-                            Repository Link
-                          </p>
-                        </a> */}
                       </li>
                     </div>
                   );
